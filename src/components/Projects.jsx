@@ -33,7 +33,7 @@ function Projects() {
             </div>
           </div>
           <div className="project-card">
-            <img src="https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg" alt="Library" className="project-image" />
+            <img src="https://i.imgur.com/SLPEmZi.png" alt="Library" className="project-image" />
             <div className="project-card-content">
               <h3>Library</h3>
               <p className="text-muted">
