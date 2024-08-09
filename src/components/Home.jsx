@@ -13,7 +13,7 @@ function Home() {
             and solving complex problems to create efficient, scalable solutions.
           </p>
           <div className="cta-container">
-            <a href="https://drive.google.com/file/d/1oecw8x0DMQ6VCfCBZFgsxXjHflhd9Emt/view?usp=sharing" className="cta-button" target="_blank">Download CV</a>
+            <a href="https://drive.google.com/file/d/1UczOA9BSFoYcKUaw6oNR-p4_EyaBYnK4/view?usp=drive_link" className="cta-button" target="_blank">Download CV</a>
             <div className="social-links">
               <a href="https://github.com/ariels875" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={24} />
