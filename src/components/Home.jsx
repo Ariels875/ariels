@@ -16,10 +16,10 @@ function Home() {
             <a href="https://drive.google.com/file/d/1UczOA9BSFoYcKUaw6oNR-p4_EyaBYnK4/view?usp=drive_link" className="cta-button" target="_blank">Download CV</a>
             <div className="social-links">
               <a href="https://github.com/ariels875" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={24} />
+                <FaGithub size={28} />
               </a>
               <a href="https://linkedin.com/in/ariels875" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={24} />
+                <FaLinkedin size={28} />
               </a>
             </div>
           </div>

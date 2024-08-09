@@ -1,24 +1,19 @@
-  /* Styling the section */
-  .section {
+  .contact-section {
     padding: 60px 20px;
   }
   
-  /* Styling the container */
-  .container {
+  .contact-container {
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  /* Styling the section title */
-  .section-title {
-    text-align: center;
+  .contact-section-title {
     font-size: 2.5rem;
+    text-align: center;
     margin-bottom: 40px;
-    color: #333;
-    font-weight: bold;
+    color: #00bcd4; 
   }
   
-  /* Styling the contact content */
   .contact-content {
     text-align: center;
     max-width: 800px;
@@ -26,7 +21,6 @@
     margin-top: 75px;
   }
   
-  /* Styling the contact information */
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -38,7 +32,6 @@
   .contact-item {
     display: flex;
     align-items: center;
-    /* to do*/
     margin: 10px 0;
     font-size: 1.2rem;
   }
@@ -53,7 +46,6 @@
     transform: scale(1.2);
   }
   
-  /* Styling the contact form */
   .contact-form {
     display: flex;
     flex-direction: column;

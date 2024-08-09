@@ -3,9 +3,9 @@ import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <section id="contact" className="section">
-      <div className="container">
-        <h2 className="section-title">Get in Touch</h2>
+    <section id="contact" className="contact-section">
+      <div className="contact-container">
+        <h2 className="contact-section-title">Get in Touch</h2>
         <div className="contact-content">
           <h2>
             Feel free to reach out to me with any questions or opportunities. I&apos;ll do my best to get back to you

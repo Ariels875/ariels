@@ -2,9 +2,9 @@ import '../styles/About.css';
 
 function About() {
   return (
-    <section id="about" className="section">
-      <div className="container">
-        <h2 className="section-title">About Me</h2>
+    <section id="about" className="about-section">
+      <div className="about-container">
+        <h2 className="about-section-title">About Me</h2>
         <div className="about-content">
           <div className="education">
             <h3>Education</h3>
