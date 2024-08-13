@@ -51,7 +51,7 @@ function Header() {
       <div className="container header-content">
         <a href="#" className="logo">
           <ArielsIcon />
-          <span>Ariel Castro</span>
+          <span>Ariels875</span>
         </a>
         <nav className="nav">
           <NavLink href="#home">Home</NavLink>
