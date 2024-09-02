@@ -33,15 +33,15 @@ function Projects() {
             </div>
           </div>
           <div className="project-card">
-            <img src="https://i.imgur.com/SLPEmZi.png" alt="Library" className="project-image" />
+            <img src="https://i.imgur.com/Fo03rIM.png" alt="MPIQ" className="project-image" />
             <div className="project-card-content">
-              <h3>Library</h3>
+              <h3>Mario Party 3 MPIQ</h3>
               <p className="text-muted">
-                A full-stack web application that contains a library system built with Node.js and MySql.
+                A clon from the original Mario Party 3 MPIQ made from zero with Phaser and Three JS.
               </p>
               <div className="project-links">
-                <a href="#" className="btn btn-primary">Live Site</a>
-                <a href="https://github.com/Ariels875/arielslibrary" className="btn btn-secondary">Source Code</a>
+                <a href="https://mpiq-clone.pages.dev/" className="btn btn-primary">Live Site</a>
+                <a href="https://github.com/Ariels875/MPIQ-clone" className="btn btn-secondary">Source Code</a>
               </div>
             </div>
           </div>
