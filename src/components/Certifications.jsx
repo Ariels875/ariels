@@ -1,54 +1,56 @@
 import { useEffect, useRef } from 'react';
 import '../styles/Certifications.css';
+import { useTranslation } from 'react-i18next';
 
 const Certifications = () => {
   const carouselRef = useRef(null);
+  const { t } = useTranslation();
 
   const certifications = [
     {
-      title: "JavaScript Certification",
+      title: "JavaScript",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/z98GsNF.png"
     },
     {
-      title: "PHP Certification",
+      title: "PHP",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/7RnRVEm.png"
     },
     {
-      title: "Git & GitHub Certification",
+      title: "Git & GitHub",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/uzhqkDV.png"
     },
     {
-      title: "Software Engineering Certification",
+      title: "Software Engineering",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/S77t3EK.png"
     },
     {
-      title: "HTML & CSS Certification",
+      title: "HTML & CSS",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/XN1kEqp.png"
     },    
     {
-      title: "MySQL & MariaDB Certification",
+      title: "MySQL & MariaDB",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/Vmz4nfH.png"
     },    
     {
-      title: "React Certification",
+      title: "React",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/anMfTCm.png"
     },    
     {
-      title: "Astro Certification",
+      title: "Astro",
       issuer: "Platzi",
       date: "2024",
       image: "https://i.imgur.com/x1ZPB0w.png"
@@ -88,7 +90,7 @@ const Certifications = () => {
   return (
     <section id="certifications" className="certifications-section">
       <div className="certifications-container">
-        <h2 className="certifications-section-title">Certifications</h2>
+        <h2 className="certifications-section-title">{t('certifications.title')}</h2>
         <div className="carousel-container">
           <div className="carousel" ref={carouselRef}>
             {[...certifications, ...certifications].map((cert, index) => (
@@ -96,9 +98,9 @@ const Certifications = () => {
                 <img src={cert.image} alt={cert.title} />
                 <h3>{cert.title}</h3>
                 <p className="text-muted">
-                  Issued by {cert.issuer}
+                  {t('certifications.issuedBy')} {cert.issuer}
                   <br />
-                  Obtained: {cert.date}
+                  {t('certifications.obtained')} {cert.date}
                 </p>
               </div>
             ))}

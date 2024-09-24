@@ -1,40 +1,49 @@
 import '../styles/About.css';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+  const { t } = useTranslation();
   return (
     <section id="about" className="about-section">
       <div className="about-container">
-        <h2 className="about-section-title">About Me</h2>
+        <h2 className="about-section-title">{t('about.title')}</h2>
         <div className="about-content">
           <div className="education">
-            <h3>Education</h3>
+            <h3>{t('about.education')}</h3>
             <div className="education-item">
-              <h4>Bachelor of Science in Computer Science</h4>
+              <h4>{t('about.bachelor')}</h4>
               <p className="text-muted">
-                Diez de Agosto Highschol, Otavalo
+                {t('about.highschool')}
                 <br />
-                Graduated: July 2021
+                {t('about.graduatedDate')}
               </p>
             </div>
             <div className="education-item">
-              <h4>Information technology engineer</h4>
+              <h4>{t('about.engineer')}</h4>
               <p className="text-muted">
-                UTN University
+                {t('about.university')}
                 <br />
               </p>
             </div>
           </div>
           <div className="about-text">
-            <p>
-              I am a <span className="highlight">full-stack developer</span> with a passion for creating intuitive and user-friendly web
-              applications. I have experience working with a variety of technologies, including <span className="highlight">React</span>, <span className="highlight">Node.js</span>,
-              and <span className="highlight">MySQL</span>, and I&apos;m always eager to learn new skills to improve my craft.
-            </p>
-            <p>
-              In my free time, I enjoy exploring the great outdoors, reading about the latest advancements in
-              technology, and contributing to <span className="highlight">open-source projects</span>. I&apos;m also an avid learner and enjoy taking
-              online courses to expand my knowledge.
-            </p>
+            <p
+            dangerouslySetInnerHTML={{
+              __html: t('about.description1', {
+                role: `<span class="highlight">${t('common.fullStackDeveloper')}</span>`,
+                react: `<span class="highlight">${t('React')}</span>`,
+                node: `<span class="highlight">${t('Node JS')}</span>`,
+                mysql: `<span class="highlight">${t('MySQL')}</span>`,
+              }),
+            }}
+          ></p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t('about.description2', {
+                github: `<span class="highlight">${t('GitHub')}</span>`,
+              }),
+            }}
+          ></p>
           </div>
         </div>
       </div>

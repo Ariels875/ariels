@@ -1,15 +1,16 @@
 import { MailIcon, PhoneIcon, LocateIcon, GithubIcon, LinkedinIcon, InstagramIcon } from './Icons';
 import '../styles/Contact.css';
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+  const { t } = useTranslation();
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
-        <h2 className="contact-section-title">Get in Touch</h2>
+        <h2 className="contact-section-title">{t('contact.title')}</h2>
         <div className="contact-content">
           <h2>
-            Feel free to reach out to me with any questions or opportunities. I&apos;ll do my best to get back to you
-            as soon as possible.
+            {t('contact.description')}.
           </h2>
           <div className="contact-info">
             <a className="contact-item" href="mailto:ascastro875@gmail.com">
