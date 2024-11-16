@@ -14,7 +14,7 @@ function Home() {
           {t('home.description')}
           </p>
           <div className="cta-container">
-            <a href="https://drive.google.com/file/d/1-xJ-4w7eUzwpJa9CL66im45eXrh7n4Xu/view?usp=drive_link" className="cta-button" target="_blank">{t('home.downloadCV')}</a>
+            <a href="https://drive.google.com/file/d/1NnxGifwytnIw0orN-5ZEojrcghyv5jYg/view?usp=sharing" className="cta-button" target="_blank">{t('home.downloadCV')}</a>
             <div className="social-links">
               <a href="https://github.com/ariels875" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={28} />
