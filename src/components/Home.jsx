@@ -3,7 +3,15 @@ import '../styles/Home.css';
 import { useTranslation } from 'react-i18next';
 
 function Home() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const currentLang = i18n.language;
+  const cvLinks = {
+    en: "https://drive.google.com/file/d/1wCfrImF7kuFdFCbX2Gj9m2ZsQhCsO4ro/view?usp=drive_link",
+    es: "https://drive.google.com/file/d/1a37BeAMMZF4zFnEJYKXNjpnAQnpK5mDp/view?usp=drive_link"
+  }
+  const cvLink = currentLang === 'es-ES' ? cvLinks.es : cvLinks.en;
+
   return (
     <section id="home" className="section home">
       <div className="home-content">
@@ -14,7 +22,7 @@ function Home() {
           {t('home.description')}
           </p>
           <div className="cta-container">
-            <a href="https://drive.google.com/file/d/1NnxGifwytnIw0orN-5ZEojrcghyv5jYg/view?usp=sharing" className="cta-button" target="_blank">{t('home.downloadCV')}</a>
+            <a href={cvLink} className="cta-button" target="_blank">{t('home.downloadCV')}</a>
             <div className="social-links">
               <a href="https://github.com/ariels875" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={28} />
