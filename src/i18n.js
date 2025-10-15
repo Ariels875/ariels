@@ -43,7 +43,7 @@ i18n
             sourceCode: "Source Code",
             chat: {
               title: "Arielschat",
-              description: "A full-stack web application that contains a real time chat with authentication built with Node.js, and SQLite.",
+              description: "A full-stack web application that contains a real time chat with authentication built with Cloudflare workers, Durable Objects Hono, Websockets, SQLite and React + TypeScript.",
               imageAlt: "Real time chat"
             },
             menu: {
@@ -110,7 +110,7 @@ i18n
             sourceCode: "Código Fuente",
             chat: {
               title: "Arielschat",
-              description: "Una aplicación web full-stack que contiene un chat en tiempo real con autenticación, construida con Node.js y SQLite.",
+              description: "Una aplicación web full-stack que contiene un chat en tiempo real con autenticación, hecha con Cloudflare workers, Durable Objects Hono, Websockets, SQLite y React + TypeScript.",
               imageAlt: "Chat en tiempo real"
             },
             menu: {

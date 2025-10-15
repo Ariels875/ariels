@@ -9,15 +9,15 @@ function Projects() {
         <h2 className="projects-section-title">{t('projects.title')}</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <img src="https://i.imgur.com/eRyW7Pc.png" alt={t('projects.chat.imageAlt')} className="project-image" />
+            <img src="https://i.imgur.com/YyBJKpE.png" alt={t('projects.chat.imageAlt')} className="project-image" />
             <div className="project-card-content">
               <h3>{t('projects.chat.title')}</h3>
               <p className="text-muted">
                 {t('projects.chat.description')}
               </p>
               <div className="project-links">
-                <a href="https://arielschat.onrender.com/" className="btn btn-primary">{t('projects.liveSite')}</a>
-                <a href="https://github.com/Ariels875/Real-Time-Chat" className="btn btn-secondary">{t('projects.sourceCode')}</a>
+                <a href="https://arielschat.pages.dev" className="btn btn-primary">{t('projects.liveSite')}</a>
+                <a href="https://github.com/Ariels875/Online-Chat" className="btn btn-secondary">{t('projects.sourceCode')}</a>
               </div>
             </div>
           </div>
