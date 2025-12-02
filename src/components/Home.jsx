@@ -7,8 +7,8 @@ function Home() {
 
   const currentLang = i18n.language;
   const cvLinks = {
-    en: "https://drive.google.com/file/d/12cXL3Npg3F-6ldMGdDtbZgOXdusNjfOe/view?usp=sharing",
-    es: "https://drive.google.com/file/d/1YDNfdbPLGRV3BBhu2Fhz4S5bSnxmrJ_g/view?usp=sharing"
+    en: "https://drive.google.com/file/d/15tEEAVoawg1O0gYHX0fml1way3gnGuKK/view?usp=sharing",
+    es: "https://drive.google.com/file/d/117yAk5CPQyyqCGIUCQWsGwvECJcFQOoz/view?usp=sharing"
   }
   const cvLink = currentLang === 'es-ES' ? cvLinks.es : cvLinks.en;
 
