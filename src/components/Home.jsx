@@ -8,7 +8,7 @@ function Home() {
   const currentLang = i18n.language;
   const cvLinks = {
     en: "https://drive.google.com/file/d/15tEEAVoawg1O0gYHX0fml1way3gnGuKK/view?usp=sharing",
-    es: "https://drive.google.com/file/d/117yAk5CPQyyqCGIUCQWsGwvECJcFQOoz/view?usp=sharing"
+    es: "https://drive.google.com/file/d/1PpQcfV9s2bZoYyAwNquUIHgQar_mOE19/view?usp=sharing"
   }
   const cvLink = currentLang === 'es-ES' ? cvLinks.es : cvLinks.en;
 

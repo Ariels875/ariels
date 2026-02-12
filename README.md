@@ -17,7 +17,7 @@ Un sitio web de portafolio personal moderno y responsivo construido con React.
 
 ## Live Site
 
-[Visitar el sitio en vivo](https://ariels.pages.dev)
+[Visitar el sitio en vivo](https://ariels.is-a.dev)
 
 ## 📦 Instalación
 
